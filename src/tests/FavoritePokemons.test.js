@@ -2,7 +2,7 @@ import React from 'react';
 import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { FavoritePokemons } from '../pages';
-import renderWithRouter from './renderWithRouter';
+import renderWithRouter from '../renderWithRouter';
 import App from '../App';
 
 describe('Teste do componente FavoritesPokemons', () => {
